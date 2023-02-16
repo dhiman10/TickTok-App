@@ -13,6 +13,20 @@
 		0D823B1D299E5E5A007C888B /* NotoficationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D823B1C299E5E5A007C888B /* NotoficationsViewController.swift */; };
 		0D823B1F299E5E66007C888B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D823B1E299E5E66007C888B /* ProfileViewController.swift */; };
 		0D823B21299E5E75007C888B /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D823B20299E5E75007C888B /* TabBarViewController.swift */; };
+		0DCBDDB1299E8692007AEDD2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0DCBDDB0299E8692007AEDD2 /* FirebaseAnalytics */; };
+		0DCBDDB3299E8692007AEDD2 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0DCBDDB2299E8692007AEDD2 /* FirebaseAnalyticsSwift */; };
+		0DCBDDB5299E8692007AEDD2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0DCBDDB4299E8692007AEDD2 /* FirebaseAuth */; };
+		0DCBDDB7299E8692007AEDD2 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0DCBDDB6299E8692007AEDD2 /* FirebaseCrashlytics */; };
+		0DCBDDB9299E8692007AEDD2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0DCBDDB8299E8692007AEDD2 /* FirebaseDatabase */; };
+		0DCBDDBB299E8692007AEDD2 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0DCBDDBA299E8692007AEDD2 /* FirebaseDatabaseSwift */; };
+		0DCBDDBD299E8692007AEDD2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0DCBDDBC299E8692007AEDD2 /* FirebaseStorage */; };
+		0DCBDDC0299E87C2007AEDD2 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 0DCBDDBF299E87C2007AEDD2 /* SDWebImage */; };
+		0DCBDDC3299E8813007AEDD2 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBDDC2299E8813007AEDD2 /* APICaller.swift */; };
+		0DCBDDC5299E8821007AEDD2 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBDDC4299E8821007AEDD2 /* StorageManager.swift */; };
+		0DCBDDC7299E882F007AEDD2 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBDDC6299E882F007AEDD2 /* DatabaseManager.swift */; };
+		0DCBDDC9299E883F007AEDD2 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBDDC8299E883F007AEDD2 /* AuthenticationManager.swift */; };
+		0DCBDDCB299E884E007AEDD2 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBDDCA299E884E007AEDD2 /* HapticManager.swift */; };
+		0DCBDDD1299E9C3A007AEDD2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBDDD0299E9C3A007AEDD2 /* Extension.swift */; };
 		6A6F6C87299E38CC00514B4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F6C86299E38CC00514B4C /* AppDelegate.swift */; };
 		6A6F6C89299E38CC00514B4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F6C88299E38CC00514B4C /* SceneDelegate.swift */; };
 		6A6F6C8B299E38CC00514B4C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F6C8A299E38CC00514B4C /* HomeViewController.swift */; };
@@ -27,6 +41,12 @@
 		0D823B1C299E5E5A007C888B /* NotoficationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotoficationsViewController.swift; sourceTree = "<group>"; };
 		0D823B1E299E5E66007C888B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		0D823B20299E5E75007C888B /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0DCBDDC2299E8813007AEDD2 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		0DCBDDC4299E8821007AEDD2 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		0DCBDDC6299E882F007AEDD2 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		0DCBDDC8299E883F007AEDD2 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		0DCBDDCA299E884E007AEDD2 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		0DCBDDD0299E9C3A007AEDD2 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		6A6F6C83299E38CC00514B4C /* TikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6F6C86299E38CC00514B4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A6F6C88299E38CC00514B4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +61,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DCBDDBB299E8692007AEDD2 /* FirebaseDatabaseSwift in Frameworks */,
+				0DCBDDB9299E8692007AEDD2 /* FirebaseDatabase in Frameworks */,
+				0DCBDDC0299E87C2007AEDD2 /* SDWebImage in Frameworks */,
+				0DCBDDB3299E8692007AEDD2 /* FirebaseAnalyticsSwift in Frameworks */,
+				0DCBDDB7299E8692007AEDD2 /* FirebaseCrashlytics in Frameworks */,
+				0DCBDDBD299E8692007AEDD2 /* FirebaseStorage in Frameworks */,
+				0DCBDDB5299E8692007AEDD2 /* FirebaseAuth in Frameworks */,
+				0DCBDDB1299E8692007AEDD2 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,47 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		0DCBDDC1299E87F8007AEDD2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBDDC2299E8813007AEDD2 /* APICaller.swift */,
+				0DCBDDC4299E8821007AEDD2 /* StorageManager.swift */,
+				0DCBDDC6299E882F007AEDD2 /* DatabaseManager.swift */,
+				0DCBDDC8299E883F007AEDD2 /* AuthenticationManager.swift */,
+				0DCBDDCA299E884E007AEDD2 /* HapticManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0DCBDDCC299E8AC1007AEDD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0DCBDDCD299E8AC8007AEDD2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0DCBDDCE299E8AD1007AEDD2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0DCBDDCF299E9C26007AEDD2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBDDD0299E9C3A007AEDD2 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		6A6F6C7A299E38CC00514B4C = {
 			isa = PBXGroup;
 			children = (
@@ -89,7 +158,12 @@
 			children = (
 				6A6F6C86299E38CC00514B4C /* AppDelegate.swift */,
 				6A6F6C88299E38CC00514B4C /* SceneDelegate.swift */,
+				0DCBDDCE299E8AD1007AEDD2 /* ViewModels */,
+				0DCBDDCD299E8AC8007AEDD2 /* Models */,
+				0DCBDDCC299E8AC1007AEDD2 /* Views */,
+				0DCBDDC1299E87F8007AEDD2 /* Managers */,
 				0D823B16299E5E05007C888B /* Controllers */,
+				0DCBDDCF299E9C26007AEDD2 /* Extension */,
 				6A6F6C8F299E38CE00514B4C /* Assets.xcassets */,
 				6A6F6C91299E38CE00514B4C /* LaunchScreen.storyboard */,
 				0D823B14299E5989007C888B /* GoogleService-Info.plist */,
@@ -115,6 +189,14 @@
 			);
 			name = TikTok;
 			packageProductDependencies = (
+				0DCBDDB0299E8692007AEDD2 /* FirebaseAnalytics */,
+				0DCBDDB2299E8692007AEDD2 /* FirebaseAnalyticsSwift */,
+				0DCBDDB4299E8692007AEDD2 /* FirebaseAuth */,
+				0DCBDDB6299E8692007AEDD2 /* FirebaseCrashlytics */,
+				0DCBDDB8299E8692007AEDD2 /* FirebaseDatabase */,
+				0DCBDDBA299E8692007AEDD2 /* FirebaseDatabaseSwift */,
+				0DCBDDBC299E8692007AEDD2 /* FirebaseStorage */,
+				0DCBDDBF299E87C2007AEDD2 /* SDWebImage */,
 			);
 			productName = TikTok;
 			productReference = 6A6F6C83299E38CC00514B4C /* TikTok.app */;
@@ -145,8 +227,8 @@
 			);
 			mainGroup = 6A6F6C7A299E38CC00514B4C;
 			packageReferences = (
-				0D823B22299E7B58007C888B /* XCRemoteSwiftPackageReference "appirater" */,
-				0D823B23299E7BA2007C888B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				0DCBDDAF299E8692007AEDD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				0DCBDDBE299E87C2007AEDD2 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 6A6F6C84299E38CC00514B4C /* Products */;
 			projectDirPath = "";
@@ -175,12 +257,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DCBDDCB299E884E007AEDD2 /* HapticManager.swift in Sources */,
 				0D823B21299E5E75007C888B /* TabBarViewController.swift in Sources */,
+				0DCBDDC7299E882F007AEDD2 /* DatabaseManager.swift in Sources */,
 				0D823B19299E5E37007C888B /* ExploreViewController.swift in Sources */,
 				0D823B1D299E5E5A007C888B /* NotoficationsViewController.swift in Sources */,
 				0D823B1B299E5E44007C888B /* CameraViewController.swift in Sources */,
+				0DCBDDC3299E8813007AEDD2 /* APICaller.swift in Sources */,
 				6A6F6C8B299E38CC00514B4C /* HomeViewController.swift in Sources */,
 				0D823B1F299E5E66007C888B /* ProfileViewController.swift in Sources */,
+				0DCBDDD1299E9C3A007AEDD2 /* Extension.swift in Sources */,
+				0DCBDDC5299E8821007AEDD2 /* StorageManager.swift in Sources */,
+				0DCBDDC9299E883F007AEDD2 /* AuthenticationManager.swift in Sources */,
 				6A6F6C87299E38CC00514B4C /* AppDelegate.swift in Sources */,
 				6A6F6C89299E38CC00514B4C /* SceneDelegate.swift in Sources */,
 			);
@@ -251,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -306,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +417,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,7 +444,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,23 +482,66 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0D823B22299E7B58007C888B /* XCRemoteSwiftPackageReference "appirater" */ = {
+		0DCBDDAF299E8692007AEDD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/arashpayan/appirater";
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				minimumVersion = 9.0.0;
 			};
 		};
-		0D823B23299E7BA2007C888B /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+		0DCBDDBE299E87C2007AEDD2 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0DCBDDB0299E8692007AEDD2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DCBDDAF299E8692007AEDD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		0DCBDDB2299E8692007AEDD2 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DCBDDAF299E8692007AEDD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		0DCBDDB4299E8692007AEDD2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DCBDDAF299E8692007AEDD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0DCBDDB6299E8692007AEDD2 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DCBDDAF299E8692007AEDD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		0DCBDDB8299E8692007AEDD2 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DCBDDAF299E8692007AEDD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		0DCBDDBA299E8692007AEDD2 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DCBDDAF299E8692007AEDD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		0DCBDDBC299E8692007AEDD2 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DCBDDAF299E8692007AEDD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		0DCBDDBF299E87C2007AEDD2 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DCBDDBE299E87C2007AEDD2 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6A6F6C7B299E38CC00514B4C /* Project object */;
 }
