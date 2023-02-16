@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D823B15299E5989007C888B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D823B14299E5989007C888B /* GoogleService-Info.plist */; };
+		0D823B19299E5E37007C888B /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D823B18299E5E37007C888B /* ExploreViewController.swift */; };
+		0D823B1B299E5E44007C888B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D823B1A299E5E44007C888B /* CameraViewController.swift */; };
+		0D823B1D299E5E5A007C888B /* NotoficationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D823B1C299E5E5A007C888B /* NotoficationsViewController.swift */; };
+		0D823B1F299E5E66007C888B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D823B1E299E5E66007C888B /* ProfileViewController.swift */; };
+		0D823B21299E5E75007C888B /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D823B20299E5E75007C888B /* TabBarViewController.swift */; };
 		6A6F6C87299E38CC00514B4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F6C86299E38CC00514B4C /* AppDelegate.swift */; };
 		6A6F6C89299E38CC00514B4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F6C88299E38CC00514B4C /* SceneDelegate.swift */; };
-		6A6F6C8B299E38CC00514B4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F6C8A299E38CC00514B4C /* ViewController.swift */; };
-		6A6F6C8E299E38CC00514B4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F6C8C299E38CC00514B4C /* Main.storyboard */; };
+		6A6F6C8B299E38CC00514B4C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F6C8A299E38CC00514B4C /* HomeViewController.swift */; };
 		6A6F6C90299E38CE00514B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F6C8F299E38CE00514B4C /* Assets.xcassets */; };
 		6A6F6C93299E38CE00514B4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F6C91299E38CE00514B4C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D823B14299E5989007C888B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0D823B18299E5E37007C888B /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		0D823B1A299E5E44007C888B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		0D823B1C299E5E5A007C888B /* NotoficationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotoficationsViewController.swift; sourceTree = "<group>"; };
+		0D823B1E299E5E66007C888B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0D823B20299E5E75007C888B /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		6A6F6C83299E38CC00514B4C /* TikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6F6C86299E38CC00514B4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A6F6C88299E38CC00514B4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6A6F6C8A299E38CC00514B4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6A6F6C8D299E38CC00514B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A6F6C8A299E38CC00514B4C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6A6F6C8F299E38CE00514B4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A6F6C92299E38CE00514B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A6F6C94299E38CE00514B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +47,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D823B16299E5E05007C888B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D823B17299E5E13007C888B /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0D823B17299E5E13007C888B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6A6F6C8A299E38CC00514B4C /* HomeViewController.swift */,
+				0D823B18299E5E37007C888B /* ExploreViewController.swift */,
+				0D823B1A299E5E44007C888B /* CameraViewController.swift */,
+				0D823B1C299E5E5A007C888B /* NotoficationsViewController.swift */,
+				0D823B1E299E5E66007C888B /* ProfileViewController.swift */,
+				0D823B20299E5E75007C888B /* TabBarViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		6A6F6C7A299E38CC00514B4C = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +89,10 @@
 			children = (
 				6A6F6C86299E38CC00514B4C /* AppDelegate.swift */,
 				6A6F6C88299E38CC00514B4C /* SceneDelegate.swift */,
-				6A6F6C8A299E38CC00514B4C /* ViewController.swift */,
-				6A6F6C8C299E38CC00514B4C /* Main.storyboard */,
+				0D823B16299E5E05007C888B /* Controllers */,
 				6A6F6C8F299E38CE00514B4C /* Assets.xcassets */,
 				6A6F6C91299E38CE00514B4C /* LaunchScreen.storyboard */,
+				0D823B14299E5989007C888B /* GoogleService-Info.plist */,
 				6A6F6C94299E38CE00514B4C /* Info.plist */,
 			);
 			path = TikTok;
@@ -83,6 +114,8 @@
 			dependencies = (
 			);
 			name = TikTok;
+			packageProductDependencies = (
+			);
 			productName = TikTok;
 			productReference = 6A6F6C83299E38CC00514B4C /* TikTok.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +144,10 @@
 				Base,
 			);
 			mainGroup = 6A6F6C7A299E38CC00514B4C;
+			packageReferences = (
+				0D823B22299E7B58007C888B /* XCRemoteSwiftPackageReference "appirater" */,
+				0D823B23299E7BA2007C888B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 6A6F6C84299E38CC00514B4C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +164,7 @@
 			files = (
 				6A6F6C93299E38CE00514B4C /* LaunchScreen.storyboard in Resources */,
 				6A6F6C90299E38CE00514B4C /* Assets.xcassets in Resources */,
-				6A6F6C8E299E38CC00514B4C /* Main.storyboard in Resources */,
+				0D823B15299E5989007C888B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A6F6C8B299E38CC00514B4C /* ViewController.swift in Sources */,
+				0D823B21299E5E75007C888B /* TabBarViewController.swift in Sources */,
+				0D823B19299E5E37007C888B /* ExploreViewController.swift in Sources */,
+				0D823B1D299E5E5A007C888B /* NotoficationsViewController.swift in Sources */,
+				0D823B1B299E5E44007C888B /* CameraViewController.swift in Sources */,
+				6A6F6C8B299E38CC00514B4C /* HomeViewController.swift in Sources */,
+				0D823B1F299E5E66007C888B /* ProfileViewController.swift in Sources */,
 				6A6F6C87299E38CC00514B4C /* AppDelegate.swift in Sources */,
 				6A6F6C89299E38CC00514B4C /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +189,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6A6F6C8C299E38CC00514B4C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6A6F6C8D299E38CC00514B4C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6A6F6C91299E38CE00514B4C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,9 +328,7 @@
 				INFOPLIST_FILE = TikTok/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -323,9 +355,7 @@
 				INFOPLIST_FILE = TikTok/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -362,6 +392,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0D823B22299E7B58007C888B /* XCRemoteSwiftPackageReference "appirater" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/arashpayan/appirater";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		0D823B23299E7BA2007C888B /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 6A6F6C7B299E38CC00514B4C /* Project object */;
 }
